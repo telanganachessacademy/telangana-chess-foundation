@@ -41,13 +41,75 @@ export function Footer() {
     { name: "Contact Desk", href: "/contact" },
   ];
 
-  const networkLinks = [
-    { name: "Telangana Chess Academy", href: "https://telanganachessacademy.com/" },
-    { name: "Telangana Chess School", href: "https://www.telanganachessschool.com" },
-    { name: "Bharat Chess Academy", href: "https://www.bharatchessacademy.com" },
-    { name: "Bharat Chess Institute", href: "http://www.bharatchessinstitute.com" },
-    { name: "Hyderabad Chess Institute", href: "https://www.hyderabadchessinstitute.com" },
-  ];
+ const networkLinks = [
+  // Telangana Network
+  {
+    name: "Telangana Chess Academy",
+    href: "https://telanganachessacademy.com/",
+  },
+  {
+    name: "Telangana Chess Institute",
+    href: "https://telanganachess.com/",
+  },
+  {
+    name: "Telangana Chess School",
+    href: "https://www.telanganachessschool.com/",
+  },
+  {
+    name: "Telangana Chess School",
+    href: "https://www.telanganachessachool.com/",
+  },
+  {
+    name: "Telangana Chess Foundation",
+    href: "https://www.telanganachessfoundation.com/",
+  },
+  {
+    name: "Telangana Sports Academy",
+    href: "https://www.telanganasportsacademy.com/",
+  },
+  {
+    name: "Telangana Chess Centre",
+    href: "/",
+  },
+
+  // Bharat Network
+  {
+    name: "Bharat Chess Academy",
+    href: "https://www.bharatchessacademy.com/",
+  },
+  {
+    name: "Bharat Chess School",
+    href: "https://bharatchess.com/",
+  },
+  {
+    name: "Bharat Chess School",
+    href: "https://www.bharatchessschool.com/",
+  },
+  {
+    name: "Bharat Chess Institute",
+    href: "http://www.bharatchessinstitute.com/",
+  },
+  {
+    name: "Bharat Sports Academy",
+    href: "https://www.bharatsportsacademy.com/",
+  },
+
+  // Hyderabad Network
+  {
+    name: "Hyderabad Chess Institute",
+    href: "https://www.hyderabadchessinstitute.com/",
+  },
+  {
+    name: "Hyderabad Chess Club",
+    href: "https://www.hyderabadchessclub.com/",
+  },
+
+  // Student Portal
+  {
+    name: "Live Student Classroom",
+    href: "https://app.chesslang.com/app",
+  },
+];
 
   return (
     <footer className="bg-slate-950 text-slate-300 font-sans relative overflow-hidden border-t border-slate-800">
